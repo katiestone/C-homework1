@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\RShi3\\source\\repos\\final\\Accounts\\Accounts\\Accounts.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\RShi3\\source\\repos\\final\\Accounts\\Accounts\\Accounts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\RShi3\\source\\repos\\final\\Accounts\\Accounts\\Accounts.csproj",
+        "projectName": "Accounts",
+        "projectPath": "C:\\Users\\RShi3\\source\\repos\\final\\Accounts\\Accounts\\Accounts.csproj",
+        "packagesPath": "C:\\Users\\RShi3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RShi3\\source\\repos\\final\\Accounts\\Accounts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RShi3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://prism-nusrv/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.drillops.slb.com:8443/artifactory/api/nuget/nuget-prd-local": {},
+          "https://bgc-ie-proget01/nuget/SALT/": {},
+          "https://packages.kdsc.swt.slb.com/artifactory/api/nuget/nuget-dev-local/": {},
+          "https://slb-swt.pkgs.visualstudio.com/_packaging/slb-packages/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
